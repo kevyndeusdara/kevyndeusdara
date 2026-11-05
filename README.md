@@ -19,9 +19,6 @@
   <a href="#-01--sobre-mim">Sobre</a> &nbsp;•&nbsp;
   <a href="#-02--tech-stack">Stack</a> &nbsp;•&nbsp;
   <a href="#-04--projetos">Projetos</a> &nbsp;•&nbsp;
-  
-  &nbsp;•&nbsp;
-  
   <a href="#-09--conexões">Contato</a>
 </div>
 
