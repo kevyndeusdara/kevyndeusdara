@@ -27,16 +27,17 @@
 
 ## `◈ 01 / SOBRE MIM`
 
-> Olá! Sou **Kevyn Deusdará**, estudante de tecnologia e desenvolvedor em formação. Gosto de transformar ideias em projetos funcionais, explorar novas ferramentas e evoluir um commit de cada vez.
+> Sou **Kevyn Deusdará**, estudante de tecnologia e desenvolvedor em formação. Gosto de transformar ideias em projetos funcionais, explorar novas ferramentas e evoluir um commit de cada vez.
 
 ```yaml
 user: kevyndeusdara
 identity: Kevyn Deusdará
-profile: Estudante de TI | Developer in progress
+profile: Estudante de ADS | Developer in progress
 focus:
   - Desenvolvimento web
   - Python e automação
   - Lógica e soluções práticas
+  - Análise de Dados
 interests:
   - Projetos criativos
   - Bots e sistemas interativos
