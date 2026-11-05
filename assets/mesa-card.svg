@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 225" width="510" height="225" role="img" aria-labelledby="title desc">
+<title id="title">Projeto Mesa Aberta</title>
+<desc id="desc">Card azul-escuro de projeto com etiquetas HTML, CSS, JavaScript e links no README.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0B1A2E"/><stop offset="1" stop-color="#091120"/></linearGradient>
+  <linearGradient id="line" x2="1"><stop stop-color="#35E4FF"/><stop offset="1" stop-color="#A28AFF"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#315979" stroke-opacity=".15" fill="none"/></pattern>
+</defs>
+<rect x="1" y="1" width="508" height="223" rx="17" fill="url(#bg)" stroke="#315678" stroke-width="2"/>
+<rect x="2" y="2" width="506" height="221" rx="17" fill="url(#grid)"/>
+<path d="M20 18H489" stroke="#2C4A61"/>
+<circle cx="34" cy="31" r="5" fill="#42E9C4"/>
+<text x="48" y="35" font-family="'Courier New',monospace" font-size="13" fill="#7FA8C0" letter-spacing="1">PROJECT // 001</text>
+<rect x="385" y="20" rx="10" width="95" height="22" fill="#143C40" stroke="#287C79"/>
+<text x="399" y="35" font-family="Arial,sans-serif" font-size="11" fill="#68F0C8">PUBLIC / LIVE</text>
+<text x="27" y="98" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="800" fill="#F3FAFF">Mesa Aberta</text>
+<rect x="28" y="112" width="55" height="3" rx="2" fill="url(#line)"/>
+<text x="27" y="138" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#AAC5D6">Site de ONG fictícia sobre RPG de mesa</text>
+<text x="27" y="159" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#7E9FB5">Projeto acadêmico • Inclusão • Web responsiva</text>
+<g font-family="'Courier New',monospace" font-size="13" font-weight="700">
+  <rect x="27" y="178" width="68" height="27" rx="6" fill="#123C43" stroke="#1D7781"/>
+  <text x="41" y="196" fill="#48E3E7">HTML</text>
+  <rect x="102" y="178" width="60" height="27" rx="6" fill="#24304A" stroke="#48619B"/>
+  <text x="119" y="196" fill="#A0B7FF">CSS</text>
+  <rect x="169" y="178" width="48" height="27" rx="6" fill="#393329" stroke="#82733D"/>
+  <text x="179" y="196" fill="#FFE180">JS</text>
+</g>
+<text x="350" y="195" font-family="'Courier New',monospace" font-size="14" font-weight="700" fill="#58DFFF">VIEW PROJECT ↗</text>
+</svg>

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 365" width="1200" height="365" role="img" aria-labelledby="title desc">
+  <title id="title">KEVYN DEUSDARÁ — Developer System Online</title>
+  <desc id="desc">Banner de perfil com terminal futurista, varredura, núcleo holográfico e sequência de inicialização animados em azul neon.</desc>
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050A14"/>
+      <stop offset=".55" stop-color="#0A1428"/>
+      <stop offset="1" stop-color="#07101B"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#40F0FF"/>
+      <stop offset=".58" stop-color="#3D9DFF"/>
+      <stop offset="1" stop-color="#9C7BFF"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#1D8FD3" stop-opacity=".25"/>
+      <stop offset=".65" stop-color="#1673CA" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#1673CA" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
+      <path d="M35 0H0V35" fill="none" stroke="#2B607E" stroke-opacity=".17" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect width="1200" height="365" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="365" fill="url(#back)"/>
+    <rect width="1200" height="365" fill="url(#grid)"/>
+    <circle cx="1001" cy="183" r="235" fill="url(#aura)"/>
+    <path d="M28 18H1172L1182 28V337L1172 347H28L18 337V28Z" fill="none" stroke="#315A7B" stroke-width="1.4"/>
+    <path d="M28 18H238M962 347H1172" stroke="url(#neon)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M0 91H1200" stroke="#24506D" stroke-opacity=".45"/>
+    <path d="M0 315H1200" stroke="#24506D" stroke-opacity=".45"/>
+    <rect x="0" y="0" width="330" height="365" fill="#36D6FF" opacity=".035">
+      <animate attributeName="x" values="-330;1200" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="0" width="4" height="365" fill="#50DFFF" opacity=".10">
+      <animate attributeName="x" values="-4;1200" dur="8s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Header / current status -->
+    <circle cx="55" cy="56" r="6" fill="#49EDC1" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;.42;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="73" y="62" font-family="'Courier New',monospace" fill="#85B9D2" font-size="19" letter-spacing="2">SYSTEM // PROFILE.EXE</text>
+    <rect x="582" y="37" width="207" height="37" rx="18" fill="#0D2836" stroke="#26627D"/>
+    <text x="605" y="61" font-family="'Courier New',monospace" font-size="17" font-weight="bold" fill="#53EECB">● ONLINE / READY</text>
+    <text x="1084" y="62" font-family="'Courier New',monospace" font-size="16" fill="#6791A9">ID: KD-01</text>
+
+    <!-- Main typography -->
+    <text x="67" y="169" font-family="Arial,Helvetica,sans-serif" font-size="86" font-weight="800" letter-spacing="5" fill="#F0F8FF">KEVYN</text>
+    <text x="69" y="227" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="700" letter-spacing="7" fill="url(#neon)">DEUSDARÁ</text>
+    <rect x="69" y="246" width="37" height="3" rx="2" fill="#52DFFF"/>
+    <text x="121" y="254" font-family="'Courier New',monospace" font-size="19" fill="#A9C5D9" letter-spacing="1">CODE · CREATE · EVOLVE</text>
+    <text x="68" y="296" font-family="'Courier New',monospace" font-size="17" fill="#55BCDE">&gt; python  /  javascript  /  html  /  css</text>
+
+    <!-- Terminal status -->
+    <text x="58" y="338" font-family="'Courier New',monospace" font-size="14" fill="#638FAA">[BOOT]</text>
+    <g font-family="'Courier New',monospace" font-size="14" fill="#58E6CA">
+      <text x="119" y="338" opacity="0">MODULES LOADED
+        <animate attributeName="opacity" values="0;1;1" keyTimes="0;.17;1" dur="6s" repeatCount="indefinite"/>
+      </text>
+      <text x="304" y="338" opacity="0">SYSTEM READY
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.18;.45;1" dur="6s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    <rect x="428" y="326" width="8" height="15" fill="#52DFFF">
+      <animate attributeName="opacity" values="1;0;1" dur=".85s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="955" y="326" width="183" height="5" rx="2.5" fill="#17465F"/>
+    <rect x="955" y="326" width="0" height="5" rx="2.5" fill="url(#neon)">
+      <animate attributeName="width" values="0;183;183;0" keyTimes="0;.50;.85;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- HUD / arc reactor-inspired geometric emblem -->
+    <g transform="translate(986 194)">
+      <circle r="154" fill="none" stroke="#1C526C" stroke-opacity=".55" stroke-width="1" stroke-dasharray="3 11"/>
+      <circle r="127" fill="none" stroke="#3DA4DF" stroke-opacity=".28" stroke-width="2"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="35s" repeatCount="indefinite"/>
+        <circle r="117" fill="none" stroke="#50DBF5" stroke-width="4" stroke-dasharray="76 28 13 55 11 67" stroke-linecap="round" opacity=".85"/>
+        <circle r="142" fill="none" stroke="#678BFF" stroke-opacity=".58" stroke-width="2" stroke-dasharray="44 210"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite"/>
+        <circle r="95" fill="none" stroke="#55CCFF" stroke-width="1.8" stroke-dasharray="8 8" opacity=".7"/>
+        <path d="M0 -83L71 -41L71 41L0 83L-71 41L-71 -41Z" fill="none" stroke="#357BBA" stroke-width="2"/>
+      </g>
+      <circle r="76" fill="#0D253A" stroke="#2E82B1" stroke-width="1.5"/>
+      <circle r="61" fill="none" stroke="#41D9F5" stroke-opacity=".7" stroke-width="1.5"/>
+      <path d="M-40 0H40M0 -40V40" stroke="#3AADD3" stroke-opacity=".35"/>
+      <circle r="33" fill="#092337" stroke="#5ADDFC" stroke-width="2" filter="url(#glow)">
+        <animate attributeName="r" values="32;35;32" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <text y="10" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="29" fill="#D0F5FF">KD</text>
+    </g>
+    <path d="M802 129H848L864 142M810 261H848L864 248" stroke="#37738E" stroke-width="1.5" fill="none"/>
+    <text x="785" y="120" font-family="'Courier New',monospace" fill="#4AA3C0" font-size="13">CORE</text>
+    <text x="791" y="277" font-family="'Courier New',monospace" fill="#4AA3C0" font-size="13">v.2026</text>
+  </g>
+</svg>
